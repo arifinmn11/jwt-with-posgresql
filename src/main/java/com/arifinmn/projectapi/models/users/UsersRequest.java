@@ -1,31 +1,9 @@
-package com.arifinmn.projectapi.entities;
+package com.arifinmn.projectapi.models.users;
 
-import javax.persistence.*;
-
-@Entity
-public class Users {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
-
+public class UsersRequest {
     private String username;
     private String password;
     private String fullname;
-
-    public Users(String username, String password, String fullname) {
-        this.username = username;
-        this.password = password;
-        this.fullname = fullname;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public String getUsername() {
         return username;

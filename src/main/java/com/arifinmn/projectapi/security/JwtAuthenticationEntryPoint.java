@@ -1,4 +1,4 @@
-package com.arifinmn.projectapi.configs;
+package com.arifinmn.projectapi.security;
 
 
 import org.springframework.security.core.AuthenticationException;

@@ -1,4 +1,4 @@
-package com.arifinmn.projectapi.configs;
+package com.arifinmn.projectapi.security;
 
 import com.arifinmn.projectapi.services.JwtUserDetailsService;
 import io.jsonwebtoken.ExpiredJwtException;
